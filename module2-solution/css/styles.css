@@ -1,0 +1,38 @@
+h1{
+	color:#0000FF;
+	font-family: Arial, sans-serif;
+}
+
+
+
+/*****For desktop screens************/
+
+@media screen and (min-width: 992px  ) {
+	
+}
+
+
+/*****For tablet screens************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	
+}
+
+
+/************For mobile screens******/
+@media screen and (max-width: 767px) {
+
+	h1{
+	color:#00FF00;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	}	
+	
+}
+
+
+
+
+
+
