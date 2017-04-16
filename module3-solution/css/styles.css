@@ -1,0 +1,39 @@
+#nav-menu.collapse.in {
+	background-color: #B8B8B8;
+}
+
+#page-heading {
+	color:#0000FF;
+}
+
+.content {
+	border:1px solid black;
+	background-color:#F8F8F8;
+	height:2000px;
+	margin-right: 5px;
+	padding:15px;
+	position:relative;
+	margin-bottom:15px;
+}
+
+.navbar-nav>li>a{
+	font-weight: bold;
+	color:#51555b;
+}
+
+.navbar-nav>li {
+	border-bottom:1px solid #949ba8;
+}
+
+
+.row {
+	padding:15px;
+}
+
+#scroll-to-top {
+	float:right;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	margin-right:15px;
+}
