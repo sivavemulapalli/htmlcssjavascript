@@ -4,7 +4,7 @@
 // STEP 6: Wrap the entire contents of SpeakGoodBye.js inside of an IIFE
 // See Lecture 52, part 2
 
-(function(){
+(function(window){
 
 // STEP 7: Create an object, called 'byeSpeaker' to which you will attach
 // the "speak" method and which you will expose to the global context
@@ -26,4 +26,4 @@ byeSpeaker.speak = function(name) {
 // 'byeSpeaker' on the global scope as well.
 // xxxx.xxxx = byeSpeaker;
 window.byeSpeaker = byeSpeaker;
-})();
+})(window);
